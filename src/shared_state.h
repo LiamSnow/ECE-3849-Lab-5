@@ -16,8 +16,6 @@
 #define NFFT 1024 // FFT length
 #define KISS_FFT_CFG_SIZE (sizeof(struct kiss_fft_state)+sizeof(kiss_fft_cpx)*(NFFT-1))
 
-#define PWM_FREQUENCY 20000
-
 extern uint32_t gSystemClock; // [Hz] system clock frequency
 extern volatile uint32_t gTime; // 1/100 sec
 
@@ -41,5 +39,7 @@ extern const int TIME_SCALES_SIZE;
 extern uint8_t voltageScaleIndex;
 extern const float VOLTAGE_SCALES[];
 extern const int VOLTAGE_SCALES_SIZE;
+
+extern uint32_t timer0Period;
 
 #endif

@@ -136,6 +136,11 @@ void display_task_func() {
             GrLineDraw(&sContext, 114, 5, 117, 2);
         }
 
+        //draw frequency and period
+        float freq = (float)gSystemClock / timer0Period;
+        snprintf(str, sizeof(str), "f=%.1f  T=%d", freq, timer0Period);
+        GrStringDraw(&sContext, str, -1, 5, 110, false);
+
         //draw cpu load
         snprintf(str, sizeof(str), "CPU load: %.1f%%", cpuLoad);
         GrStringDraw(&sContext, str, -1, 5, 120, false);

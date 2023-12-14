@@ -7,7 +7,7 @@
         <srcFile name="package/cfg/rtos_pem4f.c"/>
     </sources>
     <configscripts>
-        <srcFile name="C:/Users/liams/Documents/ECE3849/ece3849_lab4_jddenney_wasnow/rtos.cfg"/>
+        <srcFile name="C:/Users/liams/Documents/ECE3849/ece3849_lab5_jddenney_wasnow2/rtos.cfg"/>
     </configscripts>
     <makefiles>
         <srcFile name="package.mak" src="package.bld"/>
@@ -44,7 +44,7 @@
         isPartial="false"
         xCfgScript="package/cfg/rtos_pem4f.cfg"
         xCfgPrefix="package/cfg/rtos_pem4f"
-        cfgScript="C:/Users/liams/Documents/ECE3849/ece3849_lab4_jddenney_wasnow/rtos.cfg"
+        cfgScript="C:/Users/liams/Documents/ECE3849/ece3849_lab5_jddenney_wasnow2/rtos.cfg"
         cfgArgs="null"
         />
     </configurations>
@@ -56,7 +56,7 @@
         profile="release"
         xCfgScript="package/cfg/rtos_pem4f.cfg"
         xCfgPrefix="package/cfg/rtos_pem4f"
-        cfgScript="C:/Users/liams/Documents/ECE3849/ece3849_lab4_jddenney_wasnow/rtos.cfg"
+        cfgScript="C:/Users/liams/Documents/ECE3849/ece3849_lab5_jddenney_wasnow2/rtos.cfg"
         cfgArgs="null"
         />
     </executables>

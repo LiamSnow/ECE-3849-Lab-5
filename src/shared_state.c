@@ -21,3 +21,5 @@ const int TIME_SCALES_SIZE = sizeof(TIME_SCALES) / sizeof(TIME_SCALES[0]);
 uint8_t voltageScaleIndex = 3;
 const float VOLTAGE_SCALES[] = {0.1, 0.2, 0.5, 1, 2, 4, 8};
 const int VOLTAGE_SCALES_SIZE = sizeof(VOLTAGE_SCALES) / sizeof(VOLTAGE_SCALES[0]);
+
+uint32_t timer0Period = 0;
